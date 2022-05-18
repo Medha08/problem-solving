@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class SingleNumber {
     fun singleNumber(nums: IntArray): Int {
         var res = 0
         nums.forEach {
