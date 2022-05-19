@@ -15,15 +15,16 @@
 class Solution {
     fun buildArray(nums: IntArray): IntArray {
         var temp = 0
-        nums.forEach { 
-            temp = nums[it]
-            nums[it] = it
-            nums.forEach { print(it) }
-            -1
-         }
-         return nums
-    }
+      for(i in 0 until nums.size){
+          temp = nums[nums[i]]
+           nums[nums[i]] = nums[i]
+           nums[i] = temp
+           print(i)
+      }
+      return nums
+   }
 }
 
 // @lc code=end
 
+ 
