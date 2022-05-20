@@ -11,8 +11,11 @@
 //     }
 // }
 
+//[TODO if O(n)]
+
+
 //--- such fine use case of map I learned ---//
-class Solution {
+class ArrayFromZeroPermutation_2 {
     fun buildArray(nums: IntArray): IntArray {
         var temp = 0
       for(i in 0 until nums.size){
