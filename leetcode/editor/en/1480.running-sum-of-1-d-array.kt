@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=1480 lang=kotlin
  *
  * [1480] Running Sum of 1d Array

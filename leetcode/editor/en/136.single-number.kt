@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=136 lang=kotlin
  *
  * [136] Single Number

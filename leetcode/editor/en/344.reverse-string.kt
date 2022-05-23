@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=344 lang=kotlin
  *
  * [344] Reverse String

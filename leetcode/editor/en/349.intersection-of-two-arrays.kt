@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=349 lang=kotlin
  *
  * [349] Intersection of Two Arrays

@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=33 lang=kotlin
  *
  * [33] Search in Rotated Sorted Array
@@ -21,17 +21,22 @@ fun rotSearch(arr:IntArray,target:Int):Int{
     var r = arr.size-1
     while(l<=r){
         var m = (l+r)/2
-        print("$m,$l,$r")
+        println("- $m,$l,$r -")
         if(arr[m] == target) return m
-        else if(target < arr[m] && target >= arr[l]) r = m-1
-        else if (target < arr[m] && target <= arr[r]) l= m+1
-        else if(target > arr[m] && target <= arr[r]) l = m+1
-        else if (target > arr[m] && target >= arr[l]) r= m-1
+        else if (arr[m]>=arr[l] && arr[m]>arr[r]){
+            if(arr[m]>target) l = m+1
+            else r = m-1
+        }
+        else if (arr[m]<arr[l] && arr[m]<=arr[r]){
+            if(arr[m]>target) r = m-1
+            else l = m+1
+            println("$l,$r")
+        }
     }
     return -1
 }
 
-class Solution {
+class SearchInRotated1 {
     fun search(nums: IntArray, target: Int): Int {
        
         if(nums.first()<nums.last()){

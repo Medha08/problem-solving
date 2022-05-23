@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=1929 lang=kotlin
  *
  * [1929] Concatenation of Array

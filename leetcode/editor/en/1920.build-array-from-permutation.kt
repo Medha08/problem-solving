@@ -1,4 +1,4 @@
-/*
+package leetcode.editor.en/*
  * @lc app=leetcode id=1920 lang=kotlin
  *
  * [1920] Build Array from Permutation
