@@ -69,7 +69,7 @@ class FindFrequencyInSortedArray{
 }
 
 fun main(){
-    val inputStream_in: InputStream = File("p1/in1.txttxt").inputStream()
+    val inputStream_in: InputStream = File("p1/in1.txt").inputStream()
     val inputList = mutableListOf<Int>()
     inputStream_in.bufferedReader().forEachLine { inputList.add(it.toInt()) }
     println(inputList)
@@ -78,7 +78,7 @@ fun main(){
     val hMap= s.findFreq(arr)
 
 
-    var outputFile = File("p1/out.txttxt")
+    var outputFile = File("p1/out.txt")
     if (outputFile.exists()) outputFile.delete()
 
     hMap.forEach {
