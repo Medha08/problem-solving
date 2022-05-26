@@ -10,15 +10,16 @@
  * var li = ListNode(5)
  * var v = li.`val`
  * Definition for singly-linked list.
- * class ListNode(var `val`: Int) {
- *     var next: ListNode? = null
- * }
- */
+ *  */
+  class ListNode(var `val`: Int) {
+      var next: ListNode? = null
+  }
 
-class Solution {
+
+class DeleteNodeInLL {
     fun deleteNode(node: ListNode?) {
         if(node == null) return
-        node.`val` = node.next.`val`
+        node.`val` = node.next!!.`val`
         node.next = node.next?.next 
     }
 }
