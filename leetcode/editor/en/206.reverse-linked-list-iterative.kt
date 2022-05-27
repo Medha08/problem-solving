@@ -14,7 +14,7 @@
  *     var next: ListNode? = null
  * }
  */
-class ReverseListIterative {
+class ReverseLinkedListIterative {
     fun reverseList(head: ListNode?): ListNode? {
         var newHead:ListNode? = head
         var prev: ListNode? = null
