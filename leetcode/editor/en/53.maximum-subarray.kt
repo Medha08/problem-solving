@@ -1,7 +1,7 @@
 import java.lang.Integer.max
 //O(N) Time and O(1) Space
 //Kadane's Algorithm
-class Solution {
+class MaximumSubArray {
     fun maxSubArray(nums: IntArray): Int {
 
         var localSum = 0

@@ -7,7 +7,7 @@
 // @lc digitToInt()=start
 //digitToInt()
 //O(N) time O(N) space
-class Solution {
+class AddBinary {
     fun addBinary(a: String, b: String): String {
         var c = a.reversed()
         var b = b.reversed()
@@ -75,7 +75,7 @@ class Solution {
 }
 
 fun main(){
-    val s = Solution()
+    val s = AddBinary()
     val a = "100010"
 
     val b = "11"

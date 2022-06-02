@@ -3,7 +3,7 @@ package leetcode.editor.en
 import java.lang.Integer.max
 
 
-class Solution {
+class MaxNumWordsFoundInSentence {
     fun mostWordsFound(sentences: Array<String>): Int {
         var maxNum = 0
         sentences.forEach{ str ->
@@ -24,5 +24,5 @@ class Solution {
 }
 
 fun main(){
-    println(Solution().mostWordsFound(arrayOf("medha is a","bullet of a shooting")))
+    println(MaxNumWordsFoundInSentence().mostWordsFound(arrayOf("medha is a","bullet of a shooting")))
 }
