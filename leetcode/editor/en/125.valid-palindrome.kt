@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-
+//O(N)time  O(N)space
 class Solution {
     fun isPalindrome(s: String): Boolean {
 
@@ -13,7 +13,7 @@ class Solution {
             it.isLetterOrDigit()
         }.map{ it.toLowerCase() }
 
-        return result.reversed() == s.toList()
+        return result.reversed() == result
     }
 }
 // @lc code=end
