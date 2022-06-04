@@ -18,6 +18,10 @@ class ContainsDuplicate {
         return true
     }
 
+    fun containsDuplicate2(nums:IntArray):Boolean{
+       return nums.size > nums.toSet().size
+    }
+
 }
 // @lc code=end
 
