@@ -24,7 +24,7 @@
  *     var next: ListNode? = null
  * }
  */
-
+//O(M+N + min(M,N)) O(1) space
 class IntersectionOfTwoLinkedLists {
     fun getIntersectionNode(headA:ListNode?, headB:ListNode?):ListNode? {
         var h1 = headA
