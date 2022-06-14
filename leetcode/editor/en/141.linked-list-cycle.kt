@@ -14,12 +14,12 @@
  *     var next: ListNode? = null
  * }
  */
-
+//O(N) time O(1) space
 class LinkedListCycle {
     fun hasCycle(head: ListNode?): Boolean {
         if(head == null) return false
         var slow = head
-        var fast = head!!.next
+        var fast = head.next
         while (slow != fast) {
             slow = slow?.next
             fast = fast?.next?.next
