@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class MissingNumber {
+class Solution {
     fun missingNumber(nums: IntArray): Int {
         var hMap = mutableMapOf<Int,Int>()
         nums.forEach{
@@ -18,11 +18,6 @@ class MissingNumber {
 
         return 1
     }
-}
-
-fun main(){
-    val s = MissingNumber()
-    println(s.missingNumber(intArrayOf(3,0,1)))
 }
 // @lc code=end
 
