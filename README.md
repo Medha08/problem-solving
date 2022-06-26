@@ -1,5 +1,5 @@
 # problem-solving practice 
 
-Daily Practice series 
+Daily Practice series  
 
 
